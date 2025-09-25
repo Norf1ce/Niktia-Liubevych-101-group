@@ -1,0 +1,19 @@
+// Любевич Нікіта 101 група (19 у списку)
+
+#include <stdio.h>
+
+int main() {
+float pricePerKg, weight;
+
+printf("Обчислення вартості покупки.\n");
+
+printf("Введіть ціну одного кілограма яблук (грн.): ");
+scanf("%f", &pricePerKg);
+
+printf("Введіть вагу яблук (кг): ");
+scanf("%f", &weight);
+
+printf("Обчислення: %.2f * %.2f = %.2f грн.\n", pricePerKg, weight, pricePerKg * weight);
+
+return 0;
+}
